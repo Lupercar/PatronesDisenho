@@ -8,6 +8,10 @@ package Observable;
     métodos depende de cuantas cosas queráis avisar. 
     2.- Los oyentes tienen que implementar la interfaz.
 */
-public class Oyente {
-    
+public class Oyente implements OyenteListener{
+
+    @Override
+    public void realizarOperacion(int valor) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }//fin class Oyente
