@@ -12,6 +12,7 @@ public class Oyente implements OyenteListener{
 
     @Override
     public void realizarOperacion(int valor) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //método que se va a ejecutar cuando el emisor envíe el evento
+        System.out.println("Oyente: Valor recibido: "+valor);
     }
 }//fin class Oyente
