@@ -1,6 +1,6 @@
 package Observable;
 
 @FunctionalInterface
-public interface OyenteListener {
+public interface EmisorEventoListener {
     void realizarOperacion(int valor);
 }//fin class OyenteListener

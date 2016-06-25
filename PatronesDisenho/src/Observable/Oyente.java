@@ -9,8 +9,10 @@ package Observable;
     2.- Los oyentes tienen que implementar la interfaz.
     3.- El emisor tiene que tener métodos para añadir y eliminar un 
     oyente al que avisar. 
+    4.- Tiene que tener una lista donde ir almacenando los oyentes 
+    a avisar.
 */
-public class Oyente implements OyenteListener{
+public class Oyente implements EmisorEventoListener{
 
     @Override
     public void realizarOperacion(int valor) {
