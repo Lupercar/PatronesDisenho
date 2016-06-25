@@ -11,6 +11,9 @@ package Observable;
     oyente al que avisar. 
     4.- Tiene que tener una lista donde ir almacenando los oyentes 
     a avisar.
+    5.- Cuando nos interese en el emisor avisamos a los oyentes, llamando
+    al método de la interfaz que tiene que implementar el oyente.
+    6.- El objeto oyente se tiene que añadir cómo un oyente del emisor.
 */
 public class Oyente implements EmisorEventoListener{
 
